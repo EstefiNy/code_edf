@@ -1,0 +1,170 @@
+/* Estilos gerais */
+body {
+    background-image: linear-gradient(to right, rgb(210, 180, 140), rgb(160, 120, 80));
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6f4f28; /* Cor marrom claro, como um cookie */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5e8d8; /* Cor bege claro, similar à cor de um cookie */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    background-color: #4a3c2a; /* Cor marrom escuro, como chocolate */
+    color: #f5f5dc; /* Cor clara para contraste */
+    padding: 20px;
+}
+
+.cookie-gallery {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.cookie-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #e1d6c4; /* Cor de borda similar ao tom dos cookies */
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+
+.cookie-gallery img:hover {
+    filter: saturate(100%);
+    transform: scale(1.1);
+}
+
+/* Lista de Cookies */
+.cookie-list {
+    background-color: #f5e8d8; /* Cor de fundo similar ao contêiner */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cookie-list ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cookie-list li {
+    background-color: #e1d6c4; /* Cor clara similar à cor de um cookie */
+    border: 1px solid #d0b89e; /* Cor de borda semelhante à cor do cookie */
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+}
+
+.cookie-list h2 {
+    color: #4a3c2a; /* Cor marrom escuro para o texto */
+}
+
+.cookie-list .price {
+    font-weight: bold;
+}
+
+.btn-add-to-cart {
+    padding: 5px 10px;
+    background-color: #6f4f28; /* Cor marrom claro */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/* Seção sobre a marca */
+.brand-info {
+    background-color: #e1d6c4; /* Cor clara semelhante à cor de um cookie */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.brand-info h2 {
+    color: #4a3c2a; /* Cor marrom escuro para o título */
+    margin-bottom: 10px;
+}
+
+.brand-info p {
+    color: #4a3c2a; /* Cor marrom escuro para o texto */
+    line-height: 1.6;
+}
+
+
+/* Formulário de Pedido */
+.order-form {
+    display: none;
+    background-color: #f5e8d8; /* Cor semelhante ao fundo */
+    padding: 20px;
+    border: 1px solid #d0b89e;
+    border-radius: 5px;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.order-form h2 {
+    margin-bottom: 10px;
+}
+
+.order-form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.order-form input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.btn-submit-order {
+    padding: 5px 10px;
+    background-color: #6f4f28; /* Cor marrom claro */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #4a3c2a; /* Cor marrom escuro */
+    color: white;
+    padding: 10px;
+}
+
+.direitos {
+    text-align: center;
+}
+
+#contato {
+    color: #f5f5dc; /* Cor clara para o link */
+    text-align: center;
+    text-decoration: none;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Cookies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Deliciosos Cookies Caseiros</h1>
+        </header>
+        
+        <section class="cookie-gallery">
+            <div class="gallery">
+                <img src="cookies.jpg" alt="Cookies Clássicos">
+                <img src="tabua.jpg" alt="Cookies com Chocolate Branco">
+                <img src="lol.jpg" alt="Cookies de Chocolate">
+                <img src="chok.jpg" alt="Cookies Recheados">
+            </div>
+        </section>
+
+        <section class="brand-info">
+            <h2>Nossos Produtos</h2>
+            <p>
+                Tudo feito com matéria-prima de alta qualidade para garantir o sabor original e deixar os clientes mais do que satisfeitos. Além dos deliciosos cookies, você também pode se deliciar com as panquecas com maple syrup, brownie, apple pie, cinnamon roll, wraps e muito mais. Vale a pena conhecer, experimentar e se apaixonar.
+            </p>
+        </section>
+
+        <section class="cookie-list">
+            <ul>
+                <li>
+                    <div class="cookie-item">
+                        <h2>Cookies Clássicos</h2>
+                        <p class="description">Deliciosos cookies com gotas de chocolate, crocantes por fora e macios por dentro.</p>
+                        <p class="price">R$15,00</p>
+                        <button class="btn-add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </li>   
+                <li>
+                    <div class="cookie-item">
+                        <h2>Cookies de Chocolate</h2>
+                        <p class="description">Cookies intensamente chocolatudos, perfeitos para os chocólatras de plantão.</p>
+                        <p class="price">R$18,00</p>
+                        <button class="btn-add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </li>   
+                <!-- Adicione mais tipos de cookies aqui -->
+            </ul>
+        </section>
+
+        <p id="cart-display">Carrinho: 0 itens</p>
+
+        <!-- Formulário de Pedido -->
+        <form id="order-form" class="order-form">
+            <h2>Faça Seu Pedido</h2>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="address">Endereço:</label>
+            <input type="text" id="address" name="address" required>
+            <br>
+            <label for="payment">Informações de Pagamento:</label>
+            <input type="text" id="payment" name="payment" required>
+            <button id="submit-order" class="btn-submit-order">Enviar Pedido</button>
+        </form>
+        
+        <button id="cart-button" class="btn-cart">Ver Carrinho</button>
+
+    </div>
+
+    <footer class="rodape">
+        <p class="direitos">Catálogo de Cookies</p>
+        <p class="direitos">Todos os direitos reservados Estefani e Maria©</p>
+        <a id="contato" href="contato.html" target="_blank">Entre em contato</a>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
